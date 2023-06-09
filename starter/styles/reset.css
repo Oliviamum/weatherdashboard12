@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Colors */
+  :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    line-height: 1.5;
+  }
+  
+  .container-fluid {
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-white {
+    color: var(--light-color);
+  }
+  
+  .bg-dark {
+    background-color: var(--dark-color);
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    margin-bottom: 10px;
+  }
+  
+  .pb-3 {
+    padding-bottom: 15px;
+  }
+  
+  .mt-1 {
+    margin-top: 5px;
+  }
+  
+  .hr {
+    border-top: 1px solid var(--secondary-color);
+  }
+  
+  /* Header */
+  .weather-header {
+    padding: 10px 0;
+  }
+  
+  /* Search Form */
+  #form-heading {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form {
+    margin-bottom: 20px;
+  }
+  
+  .weather-search {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--secondary-color);
+    outline: none;
+  }
+  
+  /* Search Button */
+.search-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* History */
+  .list-group {
+    margin-top: 20px;
+  }
+  
+  .list-group-item {
+    border-radius: 10px;
+    background-color: var(--light-color);
+    border: none;
+    color: var(--dark-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  /* Today */
+  #today {
+    margin-top: 20px;
+  }
+  
+  /* Forecast */
+  #forecast {
+    margin-top: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (min-width: 768px) {
+    .col-lg-3 {
+      width: 25%;
+      float: left;
+    }
+  
+    .col-lg-9 {
+      width: 75%;
+      float: left;
+    }
+  }
+  
+  /* Icon Styles (Replace with your own) */
+  .weather-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
